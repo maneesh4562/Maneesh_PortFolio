@@ -2,19 +2,13 @@ import React from "react";
 import "./footer.css";
 import { BsLinkedin } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
-import { FaDiscord } from "react-icons/fa";
 
 const Footer = () => {
   return (
     <footer>
-      <a href="#" className="footer__logo">
-       Maneesh
-      </a>
 
       <ul className="permalinks">
-        <li>
-          <a href="#">Home</a>
-        </li>
+        
         <li>
           <a href="#about">About</a>
         </li>
@@ -40,6 +34,7 @@ const Footer = () => {
           href="https://www.linkedin.com/in/maneesh-bugaliya-76b939205/"
           target="_blank"
           aria-label="LinkedIn"
+          rel="noreferrer"
         >
           <BsLinkedin />
         </a>
@@ -47,6 +42,7 @@ const Footer = () => {
           href="https://github.com/maneesh4562"
           target="_blank"
           aria-label="GitHub"
+          rel="noreferrer"
         >
           <FaGithub />
         </a>

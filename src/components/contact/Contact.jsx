@@ -31,14 +31,14 @@ const Contact = () => {
           <article className="contact__option">
             <MdOutlineEmail className="contact__option-icon" />
             <h4>Email</h4>
-            <a href="mailto:maneeshbugaliya@gmail.com" target="_blank">
+            <a href="mailto:maneeshbugaliya@gmail.com" rel="noreferrer" target="_blank">
               Send a message
             </a>
           </article>
           <article className="contact__option">
             <FaLinkedin className="contact__option-icon" />
             <h4>LinkedIn</h4>
-            <a href="https://www.linkedin.com/in/maneesh-bugaliya-76b939205/" target="_blank">
+            <a href="https://www.linkedin.com/in/maneesh-bugaliya-76b939205/" rel="noreferrer" target="_blank">
               Send a message
             </a>
           </article>
@@ -48,6 +48,7 @@ const Contact = () => {
             <a
               href="https://api.whatsapp.com/send?phone=918920932223"
               target="_blank"
+              rel="noreferrer"
             >
               Send a message
             </a>

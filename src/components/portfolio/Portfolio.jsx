@@ -35,10 +35,10 @@ const Portfolio = () => {
               </div>
               <h3>{item.title}</h3>
               <div className="portfolio__item-cta">
-                <a href={item.github} className="btn" target="_blank">
+                <a href={item.github} className="btn" rel="noreferrer" target="_blank">
                   Github
                 </a>
-                <a href={item.demo} className="btn btn-primary" target="_blank">
+                <a href={item.demo} className="btn btn-primary" rel="noreferrer"  target="_blank">
                   Live Demo
                 </a>
               </div>
