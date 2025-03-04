@@ -52,7 +52,7 @@ const Testimonials = () => {
         modules={[Pagination, Autoplay]}
         spaceBetween={40}
         autoplay={{
-          delay: 2000,
+          delay: 4000,
           disableOnInteraction: false,
           pauseOnMouseEnter: true,
         }}
