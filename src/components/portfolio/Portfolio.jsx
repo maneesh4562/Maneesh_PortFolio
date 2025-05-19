@@ -2,6 +2,7 @@ import React from "react";
 import "./portfolio.css";
 import IMG2 from "../../assets/snakegame.png";
 import IMG1 from "../../assets/Mass-mail.png";
+import IMG3 from "../../assets/flashcard.png";
 
 const data = [
   {
@@ -18,6 +19,13 @@ const data = [
     github: "https://github.com/maneesh4562/-Classic-Snake-Game-Built-with-JavaScript",
     demo: "https://app.netlify.com/sites/snake-playground/overview",
   },
+  {
+    id:3,
+    image:IMG3,
+    title: "Learn Faster-Flashcard",
+    github: "https://github.com/maneesh4562/flashlearn-spaced-repetition",
+    demo: "https://flashcard-app-zeta-flame.vercel.app",
+  }
 ];
 
 const Portfolio = () => {
