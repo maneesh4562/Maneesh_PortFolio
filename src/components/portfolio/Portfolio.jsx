@@ -25,7 +25,7 @@ const data = [
     image: IMG2,
     title: "Snake Game",
     github: "https://github.com/maneesh4562/-Classic-Snake-Game-Built-with-JavaScript",
-    demo: "https://app.netlify.com/sites/snake-playground/overview",
+    demo: "https://snake-playground.netlify.app",
   },
   {
     id:2,
